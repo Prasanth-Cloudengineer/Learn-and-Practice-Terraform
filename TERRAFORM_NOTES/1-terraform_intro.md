@@ -56,4 +56,3 @@ focus on desired state ( you tell the system what you want, not the step by step
 Tracks real infrastructure using `terraform.tfstate`
 - Plan before Apply
 Shows what will change before applying
-
