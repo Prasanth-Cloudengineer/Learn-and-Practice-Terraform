@@ -2,10 +2,10 @@
 
 # INTRODUCTION to TERRAFORM:
 
-*### WHAT IS TERRAFORM?*
+### WHAT IS TERRAFORM?
 Terraform is an open-source Infrastructure as Code (IaC) tool by HashiCorp that uses HashiCorp Configuration Language (HCL) to create and manage cloud and on-premises resources such as virtual machines, networks, databases.
 
-*### WHAT IS IaC?*
+### WHAT IS IaC?
 Infrastructure as Code (IaC) means provisioning and managing cloud infrastructure using code instead of manual process with enabling version control and automation.
 
 WHY TERRAFORM?
@@ -16,7 +16,7 @@ WHY TERRAFORM?
 5. Shows Plan before Apply
 
 
-1. *Introduction to IaC & Terraform*
+*Introduction to IaC & Terraform*
 
 - What is Terraform
 - What is IaC
