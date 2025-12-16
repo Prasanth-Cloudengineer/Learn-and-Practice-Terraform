@@ -1,11 +1,14 @@
 
 
-# INTRODUCTION to TERRAFORM:
+------------------------------------------------------------  # **TERRAFORM**
+# TERRAFORM
 
-### WHAT IS TERRAFORM?
+### INTRODUCTION TO TERRAFORM:
+
+##### WHAT IS TERRAFORM?
 Terraform is an open-source Infrastructure as Code (IaC) tool by HashiCorp that uses HashiCorp Configuration Language (HCL) to create and manage cloud and on-premises resources such as virtual machines, networks, databases.
 
-### WHAT IS IaC?
+##### WHAT IS IaC?
 Infrastructure as Code (IaC) means provisioning and managing cloud infrastructure using code instead of manual process with enabling version control and automation.
 
 ###### WHAT IS TERRAFORM?
@@ -64,35 +67,19 @@ Infrastructure as Code (IaC) means provisioning and managing cloud infrastructur
 
 #### Why terraform over other tools?
 
-- **Cloud Agnostic**: Terraform works with many platforms (works with GCP, AWS, Azure, etc.)
+- *Cloud Agnostic*: Terraform works with many platforms (works with GCP, AWS, Azure, etc.)
 It uses the same language (HCL) and same workflow
 It is not locked to one cloud, so, all these makes Terraform cloud-agnostic.
-- **Multi cloud supports**: Company uses more than one cloud at the same time for high availability (if one cloud goes down, others keep running)
-- **Declarative**: Focus on desired state (you tell the system what you want, not the step by step instructions)
-- **State Management**: Tracks real infrastructure using `terraform.tfstate`
-- **Plan before Apply**: Shows what will change before applying
+- *Multi cloud supports*: Company uses more than one cloud at the same time for high availability (if one cloud goes down, others keep running)
+- *Declarative*: Focus on desired state (you tell the system what you want, not the step by step instructions)
+- *State Management*: Tracks real infrastructure using `terraform.tfstate`
+- *Plan before Apply*: Shows what will change before applying
 
-### Why terraform over other tools?
 
-1. **Cloud Agnostic** 
-- Terraform works with many platforms (works with GCP, AWS, Azure, GitHub, etc.)
+1. **Cloud Agnostic**: Terraform works with many platforms (works with GCP, AWS, Azure, GitHub, etc.)
 - It uses the same language (HCL) and same workflow
 - It is not locked to one cloud, so, all these makes Terraform cloud-agnostic.
-2. **Multi cloud supports**
-- Company uses more than one cloud at the same time for high availability (if one cloud goes down, others keep running)
-3. **Declarative**
-- Focus on desired state (you tell the system what you want, not the step by step instructions)
-4. **State Management**
-- Tracks real infrastructure using `terraform.tfstate`
-5. **Plan before Apply**
-- Shows what will change before applying
-
-
-1. **Cloud Agnostic**:
-- Terraform works with many platforms (works with GCP, AWS, Azure, GitHub, etc.)
-- It uses the same language (HCL) and same workflow
-- It is not locked to one cloud, so, all these makes Terraform cloud-agnostic.
-2. **Multi cloud supports**: Company uses more than one cloud at the same time for high availability (if one cloud goes down, others keep running)
+2. **Multi cloud support**: Company uses more than one cloud at the same time for high availability (if one cloud goes down, others keep running)
 3. **Declarative**: Focus on desired state (you tell the system what you want, not the step by step instructions)
 4. **State Management**: Tracks real infrastructure using "terraform.tfstate"
 5. **Plan before Apply**: Shows what will change before applying
